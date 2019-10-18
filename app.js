@@ -5,7 +5,7 @@ app.get("/", function(req, res) {
   res.send("Hello World");
 });
 
-console.log(res);
+console.log(req);
 
 app.listen(4000);
 
